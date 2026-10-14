@@ -1,0 +1,219 @@
+{
+  "ecg_results": [
+    {
+      "condition": "ST_Ischemia",
+      "n_male": 529,
+      "n_female": 419,
+      "n_pos_male": 184,
+      "n_pos_female": 139,
+      "auc_male": 0.8558758664146187,
+      "ci_male": [
+        0.8227198694676489,
+        0.8886555380131663
+      ],
+      "auc_female": 0.9066546762589929,
+      "ci_female": [
+        0.8740764917975328,
+        0.9354326722911823
+      ],
+      "gap": -0.05077880984437422,
+      "p_value": 0.032,
+      "small_sample": false,
+      "significant": true
+    },
+    {
+      "condition": "Atrial_Fibrillation",
+      "n_male": 529,
+      "n_female": 419,
+      "n_pos_male": 69,
+      "n_pos_female": 49,
+      "auc_male": 0.9824196597353498,
+      "ci_male": [
+        0.9682788699673439,
+        0.9936656471703044
+      ],
+      "auc_female": 0.9855488141202426,
+      "ci_female": [
+        0.9742091717181709,
+        0.9946260009317537
+      ],
+      "gap": -0.003129154384892807,
+      "p_value": 0.702,
+      "small_sample": false,
+      "significant": false
+    },
+    {
+      "condition": "Left_Bundle_Branch",
+      "n_male": 529,
+      "n_female": 419,
+      "n_pos_male": 38,
+      "n_pos_female": 24,
+      "auc_male": 0.9550326937506699,
+      "ci_male": [
+        0.8859861546499478,
+        0.9985505797680927
+      ],
+      "auc_female": 0.994409282700422,
+      "ci_female": [
+        0.9860020065796082,
+        0.9994707940358607
+      ],
+      "gap": -0.039376588949752045,
+      "p_value": 0.19,
+      "small_sample": true,
+      "significant": false
+    },
+    {
+      "condition": "Prolonged_QT",
+      "n_male": 529,
+      "n_female": 419,
+      "n_pos_male": 46,
+      "n_pos_female": 25,
+      "auc_male": 0.9853722207219371,
+      "ci_male": [
+        0.9759513937172133,
+        0.9931890118616693
+      ],
+      "auc_female": 0.9440609137055836,
+      "ci_female": [
+        0.8745960287146227,
+        0.9892432926175313
+      ],
+      "gap": 0.04131130701635344,
+      "p_value": 0.09,
+      "small_sample": false,
+      "significant": false
+    },
+    {
+      "condition": "Anterior_Infarct",
+      "n_male": 529,
+      "n_female": 419,
+      "n_pos_male": 92,
+      "n_pos_female": 68,
+      "auc_male": 0.9305044274201572,
+      "ci_male": [
+        0.8955828840815162,
+        0.9585297123964748
+      ],
+      "auc_female": 0.9271828389475448,
+      "ci_female": [
+        0.8946278970569685,
+        0.9553831843296885
+      ],
+      "gap": 0.0033215884726123246,
+      "p_value": 0.858,
+      "small_sample": false,
+      "significant": false
+    },
+    {
+      "condition": "Right_Bundle_Branch",
+      "n_male": 529,
+      "n_female": 419,
+      "n_pos_male": 73,
+      "n_pos_female": 46,
+      "auc_male": 0.9887647200192261,
+      "ci_male": [
+        0.9812586362322046,
+        0.9952427038335192
+      ],
+      "auc_female": 0.9913742860473249,
+      "ci_female": [
+        0.976834226070053,
+        0.9996290832621115
+      ],
+      "gap": -0.0026095660280988087,
+      "p_value": 0.618,
+      "small_sample": false,
+      "significant": false
+    },
+    {
+      "condition": "Sinus_Tachycardia",
+      "n_male": 529,
+      "n_female": 419,
+      "n_pos_male": 118,
+      "n_pos_female": 114,
+      "auc_male": 0.9948451482535362,
+      "ci_male": [
+        0.9905896077801952,
+        0.997951004058294
+      ],
+      "auc_female": 0.9935576646534369,
+      "ci_female": [
+        0.9879180948089015,
+        0.9975286849073257
+      ],
+      "gap": 0.0012874836000993373,
+      "p_value": 0.666,
+      "small_sample": false,
+      "significant": false
+    }
+  ],
+  "xray_results": [
+    {
+      "condition": "Cardiomegaly",
+      "n_male": 197,
+      "n_female": 150,
+      "n_pos_male": 155,
+      "n_pos_female": 122,
+      "auc_male": 0.8360983102918587,
+      "ci_male": [
+        0.752329685594254,
+        0.9089811467213149
+      ],
+      "auc_female": 0.9019320843091335,
+      "ci_female": [
+        0.833920498014385,
+        0.953475797258662
+      ],
+      "gap": -0.06583377401727486,
+      "p_value": 0.168,
+      "small_sample": false,
+      "significant": false
+    },
+    {
+      "condition": "Edema",
+      "n_male": 167,
+      "n_female": 145,
+      "n_pos_male": 81,
+      "n_pos_female": 84,
+      "auc_male": 0.880275624461671,
+      "ci_male": [
+        0.825579806379961,
+        0.9272228933856841
+      ],
+      "auc_female": 0.8612412177985949,
+      "ci_female": [
+        0.7893827464076367,
+        0.9195404532479193
+      ],
+      "gap": 0.019034406663076098,
+      "p_value": 0.624,
+      "small_sample": false,
+      "significant": false
+    },
+    {
+      "condition": "Pleural Effusion",
+      "n_male": 247,
+      "n_female": 204,
+      "n_pos_male": 162,
+      "n_pos_female": 149,
+      "auc_male": 0.9133623819898329,
+      "ci_male": [
+        0.8769214271317114,
+        0.9437680914342159
+      ],
+      "auc_female": 0.866503965832825,
+      "ci_female": [
+        0.8073017003064215,
+        0.9153306661412787
+      ],
+      "gap": 0.04685841615700792,
+      "p_value": 0.146,
+      "small_sample": false,
+      "significant": false
+    }
+  ],
+  "n_total": 10,
+  "n_no_gap": 9,
+  "timestamp": "2026-07-31 16:04"
+}
